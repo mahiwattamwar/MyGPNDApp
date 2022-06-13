@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page1Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="104dp"
+            android:layout_height="71dp"
+            android:layout_below="@+id/textView9"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="34dp"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/principal" />
+
+        <Button
+            android:id="@+id/principaldesk_btn"
+            android:layout_width="109dp"
+            android:layout_height="61dp"
+            android:layout_below="@+id/imageView3"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="10dp"
+            android:text="Principal Desk"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_background"
+            android:padding="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="104dp"
+            android:layout_height="71dp"
+            android:layout_below="@+id/textView9"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="34dp"
+            app:srcCompat="@drawable/library" />
+
+        <Button
+            android:id="@+id/liabrary_btn"
+            android:layout_width="109dp"
+            android:layout_height="61dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_background"
+            android:layout_below="@+id/imageView4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="9dp"
+            android:text="Library" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:text="App Contents"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="104dp"
+            android:layout_height="71dp"
+            android:layout_below="@+id/textView9"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="34dp"
+            android:layout_marginEnd="9dp"
+            app:srcCompat="@drawable/it_dept_main" />
+
+        <Button
+            android:id="@+id/it_dept_btn"
+            android:layout_width="109dp"
+            android:layout_height="61dp"
+            android:layout_below="@+id/imageView5"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="9dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_background"
+            android:text="IF Dept" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="104dp"
+            android:layout_height="71dp"
+            android:layout_below="@+id/principaldesk_btn"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="34dp"
+            app:srcCompat="@drawable/civil_dept_main" />
+
+        <Button
+            android:id="@+id/civil_dept_btn"
+            android:layout_width="109dp"
+            android:layout_height="61dp"
+            android:layout_below="@+id/imageView6"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="9dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_background"
+            android:layout_marginTop="9dp"
+            android:text="civil dept" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="104dp"
+            android:layout_height="71dp"
+            android:layout_below="@+id/liabrary_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="34dp"
+            app:srcCompat="@drawable/production_dept_main" />
+
+        <Button
+            android:id="@+id/pg_dept_btn"
+            android:layout_width="109dp"
+            android:layout_height="61dp"
+            android:layout_below="@+id/imageView7"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="9dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_background"
+            android:text="PG dept" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="104dp"
+            android:layout_height="71dp"
+            android:layout_below="@+id/it_dept_btn"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="34dp"
+            android:layout_marginEnd="9dp"
+            app:srcCompat="@drawable/mechanical_dept_main" />
+
+        <Button
+            android:id="@+id/mechanical_dept_btn"
+            android:layout_width="109dp"
+            android:layout_height="61dp"
+            android:layout_below="@+id/imageView8"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="9dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_background"
+            android:text="ME dept" />
+
+        <Button
+            android:id="@+id/page1next_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pg_dept_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button_background"
+            android:text="About us"
+            android:textColor="@android:color/white" />
+
+    </RelativeLayout>
+</ScrollView>

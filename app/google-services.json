@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "813269405432",
+    "firebase_url": "https://mygpnd.firebaseio.com",
+    "project_id": "mygpnd",
+    "storage_bucket": "mygpnd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813269405432:android:f07dbd6298dd3ec2e5750d",
+        "android_client_info": {
+          "package_name": "com.friends.mygpndapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813269405432-e9kq4jidejetdb3mee1eedpemi1kvgvi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.friends.mygpndapp",
+            "certificate_hash": "9d87c850d282e9eec7cbd36ad3d4f81c3d3337f8"
+          }
+        },
+        {
+          "client_id": "813269405432-p1t2890vm2gpl7gkk5ob5mbmsi2sooea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaESC1o0yDoy2VzS3K_iVxh_v2kLuWFJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813269405432-p1t2890vm2gpl7gkk5ob5mbmsi2sooea.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My GPND App</string>
+    <string name="principal_desk_p1">Welcome to Government Polytechnic, Nanded, an institute established in 1964, has been always leading institute in terms of information technology and education. Our institute focuses on taking all the possible efforts for creating versatile students, who will be able to face all the challenging conditions in respective fields.
+    </string>
+    <string name="principal_desk_p2">Our motto is to develop students future prospective and assist them to build their own confidence and right approach towards learning process. We at GP Nanded, take care of each individual to participate in the process of making students career through various career development programs. Our Committed faculty and competent staff aims to provide an excellent platform for enhancing student’s knowledge base, skills and personality to accept the challenges and changes in industrial and corporate world.</string>
+    <string name="liabrary">In the central library, we have different sections like: book stacking, periodicals, references, digital library with 17 nodes and well ventilated reading hall with capacity of 150+ students. All the books in Library have been classified as per Dewey decimal classification system. Library and reading hall timing is 8.30 am to 5.00 pm . G P Nanded Central Library has collections of more than 50243 books and subscribed National and International Journal along with several online journals</string>
+    <string name="it_dept_desc">Information Technology is a one of the emerging computing discipline. Now a day’s Computers became essential work tools at every level of most organizations, and networked computer systems became the information backbone of organizations. Information Technology refers to undergraduate degree programs that prepare students to meet the computer technology needs of business, government, health care, schools, and other kinds of organizations.</string>
+    <string name="go_to_website"><u>www.gpnanded.org.in</u></string>
+    <string name="principal_website"><u>(See Researches)</u></string>
+</resources>
